@@ -23,7 +23,7 @@ function App() {
     getTask();
   },[])
 // Fetch Data from Json Server 
-  const api = 'http://localhost:5000/tasks';
+  const api = 'https://mytasktrackerby.herokuapp.com/tasks';
 const fetchTasks = async () => {
   const res = await fetch(api);
   const data = await res.json();
@@ -37,7 +37,7 @@ const fetchTask = async (id) => {
 
   // Add Task 
   const onAdd = async (task)=>{
-    const res = await fetch(api, {
+    const res = await fetch(`${api}`, {
       method: 'POST',
       headers:{
         'Content-type': 'application/json',
@@ -59,8 +59,7 @@ const fetchTask = async (id) => {
 
   // Delete Task Function 
   const deleteTask = async (id)  =>{
-     await fetch(`http://localhost:5000/tasks/${id}`, 
-    {method : 'DELETE'});
+     await fetch(`${api}/${id}`, { method: 'DELETE' });
     setTasks(tasks.filter((task)=>task.id !== id))
   };
 
