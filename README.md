@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Task Tracker  Responsive Complete Website Project in ReactJs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+It's a ReactJs-based to-do app. CRUD operations are included. The user can add items to the list, remove items from the list, and update an item. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+- When studying react js and Instructor, create a project. I'm building it for practicing and to clarify my understanding of ReactJS.
+### Links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Coming Soon...
+- Solution URL: [Solution Link](https://github.com/iamhuraira/react-task-tracker)
+- Live Site URL: [Live Site ](https://react-task-tracker-iamhuraira.herokuapp.com/)
 
-### `npm run build`
+## My process
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML5
+- CSS3
+- Flexbox
+- ReactJs
+- JSX
+- JSON DB
+- JSON Server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### What I learned
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This challenge improved my understanding of the ReactJS Framework and Library. In this challenge, I'll learn about react components, hooks, how to use assets in a react project, and finally, how react manages a one-page full website, which is react's main feature.
+And in this project, I'm learning Reactjs' Api and CRUD operations, as well as the JSON server and JSON database. The finest part of this learning phase is learning how to use the db.jason file to learn api ho intrect. This helps me to improve my ideas.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Useful resources
 
-### Code Splitting
+- [w3schools](https://www.w3schools.com/) - This helped me with the introduction into the rules of each language.
+- [mozilla developer](https://developer.mozilla.org/) - This helps me with questions.
+- [Youtube] This helps me with tutorials.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- - Frontend Mentor - [@Huraira429](https://www.frontendmentor.io/profile/Huraira429) -->
+- GitHub - [@iamhuraira](https://github.com/iamhuraira)
+- Linkedin - [@iamhuraira](https://www.linkedin.com/in/iamhuraira)
+<!-- - Twitter - [@i_am_huraira_](https://twitter.com/i_am_huraira_) -->
