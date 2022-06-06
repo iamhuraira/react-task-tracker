@@ -23,7 +23,7 @@ function App() {
     getTask();
   },[])
 // Fetch Data from Json Server 
-  const api = 'https://mytasktrackerby.herokuapp.com/tasks';
+  const api = 'https://mytasktrackerby.herokuapp.com/api/tasks';
 const fetchTasks = async () => {
   const res = await fetch(api);
   const data = await res.json();
