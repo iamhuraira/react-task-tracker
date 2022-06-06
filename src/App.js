@@ -23,21 +23,21 @@ function App() {
     getTask();
   },[])
 // Fetch Data from Json Server 
-
+  const api = 'http://localhost:5000/tasks';
 const fetchTasks = async () => {
-  const res = await fetch('http://localhost:5000/tasks');
+  const res = await fetch(api);
   const data = await res.json();
   return data;
 };
 const fetchTask = async (id) => {
-  const res = await fetch(`http://localhost:5000/tasks/${id}`);
+  const res = await fetch(`${api}/${id}`);
   const data = await res.json();
   return data;
 };
 
   // Add Task 
   const onAdd = async (task)=>{
-    const res = await fetch(`http://localhost:5000/tasks`, {
+    const res = await fetch(api, {
       method: 'POST',
       headers:{
         'Content-type': 'application/json',
@@ -72,12 +72,11 @@ const fetchTask = async (id) => {
     const updTask = {...taskToToggle, reminder: !taskToToggle.reminder};
     console.log(updTask)
 
-    const res = await fetch(`http://localhost:5000/tasks/${id}`, {
-    method:'PUT',
-    headers:
-          {'Content-type': 'application/json'},
-          
-    body: JSON.stringify(updTask)
+    const res = await fetch(`${api}/${id}`, {
+      method: 'PUT',
+      headers: { 'Content-type': 'application/json' },
+
+      body: JSON.stringify(updTask),
     });
    
     const data = await res.json();

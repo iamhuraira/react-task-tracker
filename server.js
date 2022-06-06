@@ -9,7 +9,7 @@ const port = 5000;
 server.use(middleware);
 serve.use(
   jsonServer.rewriter({
-    '/http://localhost:5000/tasks/*': '/$1',
+    '/api/*': '/$1',
   })
 );
 serve.use(router);
