@@ -21,7 +21,7 @@ It's a ReactJs-based to-do app. CRUD operations are included. The user can add i
 - When studying react js and Instructor, create a project. I'm building it for practicing and to clarify my understanding of ReactJS.
 ### Links
 
-Coming Soon...
+<!-- Coming Soon... -->
 - Solution URL: [Solution Link](https://github.com/iamhuraira/react-task-tracker)
 - Live Site URL: [Live Site ](https://react-task-tracker-iamhuraira.herokuapp.com/)
 
