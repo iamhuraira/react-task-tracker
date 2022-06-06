@@ -8,9 +8,9 @@ const middleware = jsonServer.defaults({
 const port = 5000;
 server.use(middleware);
 serve.use(
-    jsonServer.rewriter({
-        "/api/*" : "/$1",
-    })
+  jsonServer.rewriter({
+    '/http://localhost:5000/tasks/*': '/$1',
+  })
 );
 serve.use(router);
 server.listen(port, ()=> (
